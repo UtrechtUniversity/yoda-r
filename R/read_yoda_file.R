@@ -1,10 +1,11 @@
 library(reticulate)
+library(readr)
 
 # Script to read a file from Yoda into R session
 
 use_miniconda(condaenv = 'r-reticulate')    
 
-source_python(file = './Python/irods_connect.py')
+source_python(file = './python/irods_connect.py')
 
 session <- create_irods_session()             # python function to create a session object
 
