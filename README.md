@@ -19,7 +19,7 @@ Add irods password to environment file
 
 
 ### R packages and set-up
-```install.packages("reticulate")```
+```install.packages("reticulate")```  
 ```install.packages("readr")```
 
 ### Start Rstudio
